@@ -1,59 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2023-07-01T11:44:08.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 OPR/99.0.0.0 (Edition Yx GX)" etag="pl-G7jl7AYuA_rVG1Aby" version="21.5.2" type="github">
-  <diagram name="Страница 1" id="BJXS8dNOKa5IQMZf3Sow">
-    <mxGraphModel dx="1009" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-07-01T12:33:24.319Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 OPR/99.0.0.0 (Edition Yx GX)" etag="c4ErAIGYAn6-kX36R-2n" version="21.5.2" type="github" pages="2">
+  <diagram id="XhG1F8m6V9XdZYxh_giV" name="Страница 2">
+    <mxGraphModel dx="1121" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8ymVn3X70QELkqEtJQ00-2" value="Заведующий отделом" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;shadow=0;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="140" y="180" width="30" height="60" as="geometry" />
+        <mxCell id="i6SGtmqRq-n5e-YfhRf9-1" value="ОТДЕЛЫ&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;Код&lt;br style=&quot;font-size: 20px;&quot;&gt;Наименование&lt;br style=&quot;font-size: 20px;&quot;&gt;ФИО заведующего&lt;br style=&quot;font-size: 20px;&quot;&gt;Объём реализации в день (руб.)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;" vertex="1" parent="1">
+          <mxGeometry x="20" y="135" width="340" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="8ymVn3X70QELkqEtJQ00-3" value="Продавец" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;shadow=0;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="690" y="120" width="30" height="60" as="geometry" />
+        <mxCell id="i6SGtmqRq-n5e-YfhRf9-2" value="ТОВАРЫ&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/font&gt;Артикул&lt;br style=&quot;font-size: 20px;&quot;&gt;Наименование&lt;br style=&quot;font-size: 20px;&quot;&gt;Единица измерения&lt;br style=&quot;font-size: 20px;&quot;&gt;Розничная цена (руб.)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;" vertex="1" parent="1">
+          <mxGeometry x="460" y="150" width="290" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="8ymVn3X70QELkqEtJQ00-5" value="База Данных &amp;quot;Торговля&amp;quot;" style="swimlane;startSize=20;fontStyle=1;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;whiteSpace=wrap;fillColor=#d80073;strokeColor=#A50040;fontColor=#FF0077;shadow=0;labelBackgroundColor=default;rounded=0;sketch=1;curveFitting=1;jiggle=2;labelBorderColor=none;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="300" y="40" width="220" height="490" as="geometry" />
+        <mxCell id="i6SGtmqRq-n5e-YfhRf9-3" value="ПРОДАЖИ&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;Артикул товара&lt;br style=&quot;font-size: 20px;&quot;&gt;Дата продажи&lt;br style=&quot;font-size: 20px;&quot;&gt;Количество проданного товара" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;" vertex="1" parent="1">
+          <mxGeometry x="259" y="370" width="310" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="8ymVn3X70QELkqEtJQ00-12" value="Добавление товаров" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;shadow=1;swimlaneLine=1;" vertex="1" parent="8ymVn3X70QELkqEtJQ00-5">
-          <mxGeometry x="50" y="60" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="8ymVn3X70QELkqEtJQ00-13" value="Добавление продаж" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;shadow=1;swimlaneLine=1;" vertex="1" parent="8ymVn3X70QELkqEtJQ00-5">
-          <mxGeometry x="54" y="130" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="8ymVn3X70QELkqEtJQ00-15" value="Учёт товаров и продаж" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;shadow=1;swimlaneLine=1;" vertex="1" parent="8ymVn3X70QELkqEtJQ00-5">
-          <mxGeometry x="47" y="310" width="134" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="8ymVn3X70QELkqEtJQ00-17" value="Распределение товаров и продаж по отделам" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;shadow=1;swimlaneLine=1;" vertex="1" parent="8ymVn3X70QELkqEtJQ00-5">
-          <mxGeometry x="41" y="210" width="146" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="8ymVn3X70QELkqEtJQ00-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#080101;fillColor=#d80073;strokeColor=#A50040;shadow=0;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="8ymVn3X70QELkqEtJQ00-3" target="8ymVn3X70QELkqEtJQ00-12">
+        <mxCell id="I0uA1n7XFjdDA0c32KP0-1" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#FF6392;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#5AA9E6;fillColor=#FFE45E;entryX=0.005;entryY=0.418;entryDx=0;entryDy=0;strokeWidth=2;entryPerimeter=0;" edge="1" parent="1" target="i6SGtmqRq-n5e-YfhRf9-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="290" as="sourcePoint" />
-            <mxPoint x="470" y="110" as="targetPoint" />
+            <mxPoint x="360" y="210" as="sourcePoint" />
+            <mxPoint x="470" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8ymVn3X70QELkqEtJQ00-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#080101;fillColor=#d80073;strokeColor=#A50040;shadow=0;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="8ymVn3X70QELkqEtJQ00-3" target="8ymVn3X70QELkqEtJQ00-13">
+        <mxCell id="I0uA1n7XFjdDA0c32KP0-3" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#FF6392;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#5AA9E6;fillColor=#FFE45E;exitX=1;exitY=0.438;exitDx=0;exitDy=0;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="i6SGtmqRq-n5e-YfhRf9-2" target="i6SGtmqRq-n5e-YfhRf9-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="290" as="sourcePoint" />
-            <mxPoint x="470" y="180" as="targetPoint" />
+            <mxPoint x="420" y="290" as="sourcePoint" />
+            <mxPoint x="470" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="450" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8ymVn3X70QELkqEtJQ00-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#080101;fillColor=#d80073;strokeColor=#A50040;shadow=0;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8ymVn3X70QELkqEtJQ00-2" target="8ymVn3X70QELkqEtJQ00-15">
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Страница 1" id="BJXS8dNOKa5IQMZf3Sow">
+    <mxGraphModel dx="1187" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8ymVn3X70QELkqEtJQ00-2" value="Заведующий отделом" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#0088FF;strokeColor=#A50040;fontColor=#0088FF;shadow=0;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;fontSize=20;fontStyle=1;fontFamily=Garamond;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="70" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8ymVn3X70QELkqEtJQ00-3" value="Продавец" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#0088FF;strokeColor=#A50040;fontColor=#0088FF;shadow=0;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;fontSize=20;fontStyle=1;fontFamily=Garamond;" vertex="1" parent="1">
+          <mxGeometry x="710" y="170" width="70" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8ymVn3X70QELkqEtJQ00-5" value="База Данных &quot;Торговля&quot;" style="swimlane;startSize=30;fontStyle=1;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=1;swimlaneFillColor=#ffffff;whiteSpace=wrap;fillColor=#FFD966;strokeColor=#A50040;fontColor=#0088FF;shadow=0;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;labelBorderColor=none;html=1;verticalAlign=middle;fontSize=22;fontFamily=Garamond;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="320" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="8ymVn3X70QELkqEtJQ00-12" value="Добавление товаров" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFD966;strokeColor=#A50040;fontColor=#0088FF;shadow=0;swimlaneLine=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;gradientColor=none;strokeWidth=1;opacity=70;fontSize=20;fontFamily=Garamond;" vertex="1" parent="8ymVn3X70QELkqEtJQ00-5">
+          <mxGeometry x="50" y="50" width="205.38" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ymVn3X70QELkqEtJQ00-13" value="Добавление продаж" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFD966;strokeColor=#A50040;fontColor=#0088FF;shadow=0;swimlaneLine=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;gradientColor=none;strokeWidth=1;opacity=70;fontSize=20;fontFamily=Garamond;" vertex="1" parent="8ymVn3X70QELkqEtJQ00-5">
+          <mxGeometry x="53.34" y="140" width="203.32" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ymVn3X70QELkqEtJQ00-15" value="Учёт товаров и продаж" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFD966;strokeColor=#A50040;fontColor=#0088FF;shadow=0;swimlaneLine=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;gradientColor=none;strokeWidth=1;opacity=70;fontSize=20;fontFamily=Garamond;" vertex="1" parent="8ymVn3X70QELkqEtJQ00-5">
+          <mxGeometry x="42.32" y="320" width="220.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ymVn3X70QELkqEtJQ00-17" value="Распределение товаров и продаж по отделам" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFD966;strokeColor=#A50040;fontColor=#0088FF;shadow=0;swimlaneLine=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;gradientColor=none;strokeWidth=1;opacity=70;fontSize=20;fontFamily=Garamond;" vertex="1" parent="8ymVn3X70QELkqEtJQ00-5">
+          <mxGeometry x="6.07" y="225" width="297.87" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8ymVn3X70QELkqEtJQ00-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#0088FF;fillColor=#d80073;strokeColor=#A50040;shadow=0;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Garamond;fontStyle=1;fontSize=20;" edge="1" parent="1" source="8ymVn3X70QELkqEtJQ00-3" target="8ymVn3X70QELkqEtJQ00-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="290" as="sourcePoint" />
-            <mxPoint x="360" y="250" as="targetPoint" />
+            <mxPoint x="440" y="360" as="sourcePoint" />
+            <mxPoint x="520" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8ymVn3X70QELkqEtJQ00-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#080101;fillColor=#d80073;strokeColor=#A50040;shadow=0;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="8ymVn3X70QELkqEtJQ00-3" target="8ymVn3X70QELkqEtJQ00-15">
+        <mxCell id="8ymVn3X70QELkqEtJQ00-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#0088FF;fillColor=#d80073;strokeColor=#A50040;shadow=0;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Garamond;fontStyle=1;fontSize=20;" edge="1" parent="1" source="8ymVn3X70QELkqEtJQ00-3" target="8ymVn3X70QELkqEtJQ00-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="290" as="sourcePoint" />
-            <mxPoint x="440" y="240" as="targetPoint" />
+            <mxPoint x="440" y="360" as="sourcePoint" />
+            <mxPoint x="520" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8ymVn3X70QELkqEtJQ00-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.415;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#080101;fillColor=#d80073;strokeColor=#A50040;shadow=0;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="8ymVn3X70QELkqEtJQ00-2" target="8ymVn3X70QELkqEtJQ00-17">
+        <mxCell id="8ymVn3X70QELkqEtJQ00-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#0088FF;fillColor=#d80073;strokeColor=#A50040;shadow=0;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Garamond;fontStyle=1;fontSize=20;" edge="1" parent="1" source="8ymVn3X70QELkqEtJQ00-2" target="8ymVn3X70QELkqEtJQ00-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="290" as="sourcePoint" />
-            <mxPoint x="440" y="240" as="targetPoint" />
+            <mxPoint x="440" y="360" as="sourcePoint" />
+            <mxPoint x="410" y="320" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8ymVn3X70QELkqEtJQ00-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#0088FF;fillColor=#d80073;strokeColor=#A50040;shadow=0;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Garamond;fontStyle=1;fontSize=20;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8ymVn3X70QELkqEtJQ00-3" target="8ymVn3X70QELkqEtJQ00-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="450" as="sourcePoint" />
+            <mxPoint x="490" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ymVn3X70QELkqEtJQ00-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.415;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#0088FF;fillColor=#d80073;strokeColor=#A50040;shadow=0;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Garamond;fontStyle=1;fontSize=20;" edge="1" parent="1" source="8ymVn3X70QELkqEtJQ00-2" target="8ymVn3X70QELkqEtJQ00-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="360" as="sourcePoint" />
+            <mxPoint x="490" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJAcQ-vg0aRzvnpkC-k4-1" value="ОТДЕЛЫ&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;Код&lt;br style=&quot;font-size: 20px;&quot;&gt;Наименование&lt;br style=&quot;font-size: 20px;&quot;&gt;ФИО заведующего&lt;br style=&quot;font-size: 20px;&quot;&gt;Объём реализации в день (руб.)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;fontFamily=Garamond;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="44" y="620" width="340" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="dJAcQ-vg0aRzvnpkC-k4-2" value="ТОВАРЫ&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/font&gt;Артикул&lt;br style=&quot;font-size: 20px;&quot;&gt;Наименование&lt;br style=&quot;font-size: 20px;&quot;&gt;Единица измерения&lt;br style=&quot;font-size: 20px;&quot;&gt;Розничная цена (руб.)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;fontFamily=Garamond;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="484" y="635" width="290" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dJAcQ-vg0aRzvnpkC-k4-3" value="ПРОДАЖИ&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;Артикул товара&lt;br style=&quot;font-size: 20px;&quot;&gt;Дата продажи&lt;br style=&quot;font-size: 20px;&quot;&gt;Количество проданного товара" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;fontStyle=1;fontFamily=Garamond;" vertex="1" parent="1">
+          <mxGeometry x="283" y="855" width="310" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dJAcQ-vg0aRzvnpkC-k4-4" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#FF6392;fontFamily=Garamond;fontSize=16;fontColor=#5AA9E6;fillColor=#FFE45E;entryX=0.005;entryY=0.418;entryDx=0;entryDy=0;strokeWidth=2;entryPerimeter=0;" edge="1" parent="1" target="dJAcQ-vg0aRzvnpkC-k4-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="384" y="695" as="sourcePoint" />
+            <mxPoint x="494" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJAcQ-vg0aRzvnpkC-k4-5" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#FF6392;fontFamily=Garamond;fontSize=16;fontColor=#5AA9E6;fillColor=#FFE45E;exitX=1;exitY=0.438;exitDx=0;exitDy=0;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="dJAcQ-vg0aRzvnpkC-k4-2" target="dJAcQ-vg0aRzvnpkC-k4-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="444" y="775" as="sourcePoint" />
+            <mxPoint x="494" y="725" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="774" y="935" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJAcQ-vg0aRzvnpkC-k4-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 23px;&quot; color=&quot;#ff006f&quot;&gt;М : 1&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=none;fontFamily=Garamond;fontSize=20;fontColor=#5AA9E6;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405.5" y="650" width="65" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
